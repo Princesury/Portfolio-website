@@ -9,10 +9,10 @@ const Navbar = () => {
         <text className=''>Prince</text>
       </div>
       <div className='flex align-middle gap-3'>
-        <Link to='/'  className='text-gray-400   font-inter sm:text-lg font-bold'>About</Link>
-        <Link to='/Portfolio'className='text-gray-400   font-inter sm:text-lg font-bold'>Portfolio</Link>
-        <Link to='/Projects' className='text-gray-400   font-inter sm:text-lg font-bold'>Projects</Link>
-        <Link to='/Contact' className='text-gray-400  font-inter sm:text-lg font-bold'>Contact</Link>
+        <Link to='/'  className='text-gray-400   font-noto sm:text-lg font-medium'>About</Link>
+        <Link to='/Portfolio'className='text-gray-400   font-noto sm:text-lg font-medium'>Portfolio</Link>
+        <Link to='/Projects' className='text-gray-400   font-noto sm:text-lg font-medium'>Projects</Link>
+        <Link to='/Contact' className='text-gray-400  font-noto sm:text-lg font-medium'>Contact</Link>
         </div>
     </div>
   )

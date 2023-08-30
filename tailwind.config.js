@@ -6,7 +6,12 @@ export default {
   ],
   theme: {
     extend: {
-      inter:['inter','serif','noto']
+      fontFamily:{
+      inter:['inter','sans','noto']
+      },
+      animation: {
+        typing: 'typing 2s steps(6), blink 1s infinite',
+    },
     },
   },
   plugins: [],
