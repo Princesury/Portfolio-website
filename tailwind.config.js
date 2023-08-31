@@ -13,7 +13,7 @@ export default {
         typing: 'typing 2s steps(6), blink 1s infinite',
     },
     backgroundImage: {
-      'my-image': "url('./assets/prince1.jpg')"
+      'my-image': "url('../assets/prince1.jpg')"
     }
     },
     
