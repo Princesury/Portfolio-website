@@ -30,7 +30,6 @@ const About = () => {
           <h1 className="text-white text-3xl font-mono font-bold">I am a {skills[currentSkillIndex]} 👋
           </h1>
       </div>
-      <div></div>
       <div className="md:w-32 md:h-32  bg-my-image object-center  bg-cover rounded-full md:mx-auto md:my-auto py-35 px-35  "></div>
     </div>
   );
