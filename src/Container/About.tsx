@@ -19,23 +19,19 @@ const About = () => {
 
   return (
     <div
-      className="bg-slate-800 w-full h-screen flex flex-row align-middle"
+      className="bg-slate-800 w-full h-screen md:flex flex-row justify-evenly my-auto mx:auto"
       id="About"
     >
-      <div className="flex flex-col">
-        <h1 className="text-white ml-20 text-3xl font-mono font-bold pt-32">
+      <div className="md:flex max-md:flex-col md:flex-col md:w-100 md:h-100 my-auto mx:auto pl-10">
+        <h1 className="text-white text-3xl font-mono font-bold w-50">
           Hi, I'm Prince
         </h1>
-        <div className="flex flex-row relative ml-20 ">
-          <h1 className="text-white text-3xl font-mono font-bold">I am a</h1>
-          <h1 className="text-white ml-5 text-3xl font-mono font-bold">
-            `${skills[currentSkillIndex]} 👋`
+        <br/>
+          <h1 className="text-white text-3xl font-mono font-bold">I am a {skills[currentSkillIndex]} 👋
           </h1>
-        </div>
       </div>
-      <div className='flex align-middle pl-10 '>
-      <img src='../../assets/Prince.jpg' className='h-80 w-80 ml-10 absolute rounded-full' />
-      </div>
+      <div></div>
+      <div className="md:w-32 md:h-32  bg-my-image object-center  bg-cover rounded-full md:mx-auto md:my-auto py-35 px-35  "></div>
     </div>
   );
 };

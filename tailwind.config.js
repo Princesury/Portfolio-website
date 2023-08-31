@@ -12,7 +12,11 @@ export default {
       animation: {
         typing: 'typing 2s steps(6), blink 1s infinite',
     },
+    backgroundImage: {
+      'my-image': "url('./assets/prince1.jpg')"
+    }
     },
+    
   },
   plugins: [],
 }
