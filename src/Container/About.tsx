@@ -21,8 +21,8 @@ const About = () => {
 
   return (
     <div  className=" flex w-full h-screen  bg-gradient-to-b from-slate-950 via-slate-900 to-slate-700">
-     <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center px-4 h-full md:flex-row">
-     <div className='mt-20 overflow-hidden pb-2/3 rounded-4xl h-48 w-48 md:h-32 md:w-32'>
+     <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center px-4 h-full md:flex-row ">
+     <div className=' overflow-hidden pb-2/3 rounded-2xl h-32 w-32 md:h-48 md:w-48'>
           <img src={Image} alt="my profile" className="h-full w-full object-cover"/>
         </div>
       <div className="flex flex-col justify-center h-full px-4">
