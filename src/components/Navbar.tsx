@@ -20,7 +20,7 @@ const Navbar = () => {
   const [nav , setNav] = useState(false)
   return (
     <div className="bg-slate-900 px-5 h-20 shadow-2xl flex flex-row justify-between w-full align-middle items-center">
-      <div className="bg-slate-900 text-gray-300 sm:text-4xl">
+      <div className="bg-slate-900 text-gray-300 sm:text-4xl max-sm:2xl">
         <h1 className="font-signature font-bold">Prince</h1>
       </div>
       <ul className="hidden md:flex gap-3">
