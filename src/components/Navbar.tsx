@@ -31,7 +31,7 @@ const Navbar = () => {
           ))}
       </ul>
       <div onClick={()=> setNav(!nav)} className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden">
-        {nav ? <FaTimes size={25}  />: <FaBars size={25} />}
+        {nav ? <FaTimes size={22}  />: <FaBars size={22} />}
       </div>
       {nav && (
       <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-gray-950 to-gray-600">
