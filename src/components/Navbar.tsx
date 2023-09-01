@@ -20,7 +20,7 @@ const Navbar = () => {
   const [nav , setNav] = useState(false)
   return (
     <div className="bg-slate-900 px-5 h-20 shadow-2xl flex flex-row justify-between w-full align-middle items-center">
-      <div className="bg-slate-900 text-gray-300 sm:text-3xl">
+      <div className="bg-slate-900 text-gray-300 sm:text-4xl">
         <h1 className="font-signature font-bold">Prince</h1>
       </div>
       <ul className="hidden md:flex gap-3">
@@ -31,7 +31,7 @@ const Navbar = () => {
           ))}
       </ul>
       <div onClick={()=> setNav(!nav)} className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden">
-        {nav ? <FaTimes size={30}  />: <FaBars size={30} />}
+        {nav ? <FaTimes size={25}  />: <FaBars size={25} />}
       </div>
       {nav && (
       <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-gray-950 to-gray-600">
