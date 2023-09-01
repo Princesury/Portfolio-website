@@ -19,7 +19,7 @@ const links = [
 const Navbar = () => {
   const [nav , setNav] = useState(false)
   return (
-    <div className="bg-slate-900 px-5 sm:h-16 h-14 shadow-2xl flex flex-row justify-between w-full align-middle items-center">
+    <div className="bg-slate-900 px-5 sm:h-16 h-14 shadow-2xl flex flex-row justify-between w-full align-middle items-center fixed">
       <div className="bg-slate-900 text-gray-300 sm:text-5xl text-2xl">
         <h1 className="font-signature font-bold pt-1">Prince</h1>
       </div>
