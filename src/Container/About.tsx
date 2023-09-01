@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 // import { TypeAnimation } from 'react-type-animation';
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
 import Image from '../assets/Prince.jpg'
