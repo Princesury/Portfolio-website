@@ -20,7 +20,7 @@ const About = () => {
   // }, []);
 
   return (
-    <div name="home" className=" flex w-full h-screen  bg-gradient-to-b from-slate-950 via-slate-900 to-slate-700">
+    <div  className=" flex w-full h-screen  bg-gradient-to-b from-slate-950 via-slate-900 to-slate-700">
      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center px-4 h-full md:flex-row">
       <div className="flex flex-col justify-center h-full px-4">
         <h2 className="text-4xl sm:text-4xl font-bold text-white">
