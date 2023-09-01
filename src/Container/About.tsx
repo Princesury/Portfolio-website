@@ -22,14 +22,15 @@ const About = () => {
   return (
     <div  className=" flex w-full h-screen  bg-gradient-to-b from-slate-950 via-slate-900 to-slate-700">
      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center px-4 h-full md:flex-row">
+     <div className='mt-20 overflow-hidden pb-2/3 rounded-2xl h-48 w-48'>
+          <img src={Image} alt="my profile" className="h-full w-full object-cover"/>
+        </div>
       <div className="flex flex-col justify-center h-full px-4">
         <h2 className="text-4xl sm:text-4xl font-bold text-white">
           I'm a React Native Developer
         </h2>
         <p className="text-gray-500 py-4 max-w-md ">
-         I have 1 Year of experience with React Native.
-         Currently I am working on E-commerce using technologies like
-         React Native , Redux, RazorPay Api gatway, Native Wind and others.
+        I am currently working on an E-commerce project using technologies like React Native, Redux, RazorPay API Gateway, Native Wind, and others, with 1 year of experience in React Native.
         </p>
         <div>
           <button className="flex flex-row bg-gradient-to-r from-cyan-500 to-blue-600 rounded-md w-fit px-4 py-2">
@@ -40,9 +41,6 @@ const About = () => {
           </button>
         </div>
       </div>
-      <div>
-          <img src={Image} alt="my profile" className="rounded-2xl w-32 md:w-48 mx-auto h-32 md:h-48 bg-cover"/>
-        </div>
      </div>
     </div>
   );
