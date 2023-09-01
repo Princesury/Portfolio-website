@@ -1,21 +1,52 @@
-// import React from 'react' 
+// import React from 'react'
 // import {HashLink as Link} from 'react-router-hash-link'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
+import { useState } from "react";
+import { FaBars,FaTimes } from "react-icons/fa";
+ 
+const links = [
+  {
+    id: 1,
+    link: "home",
+  },
+  {
+    id: 2,
+    link: "Portfolio",
+  },
+  { id: 3, link: "Projects" },
+  { id: 4, link: "Contact" },
+];
 const Navbar = () => {
+  const [nav , setNav] = useState(false)
   return (
-    
-    <div className='bg-slate-900 p-5 shadow-2xl flex flex-row justify-between w-full align-middle'>
-      <div className='bg-slate-900 font-bold text-gray-300 sm:text-3xl'>
-        <text className=''>Prince</text>
+    <div className="bg-slate-900 px-5 h-20 shadow-2xl flex flex-row justify-between w-full align-middle items-center">
+      <div className="bg-slate-900 text-gray-300 sm:text-3xl">
+        <h1 className="font-signature font-bold">Prince</h1>
       </div>
-      <div className='flex align-middle gap-3'>
-        <Link to='/'  className='text-gray-400   font-noto sm:text-lg font-medium'>About</Link>
-        <Link to='/Portfolio'className='text-gray-400   font-noto sm:text-lg font-medium'>Portfolio</Link>
-        <Link to='/Projects' className='text-gray-400   font-noto sm:text-lg font-medium'>Projects</Link>
-        <Link to='/Contact' className='text-gray-400  font-noto sm:text-lg font-medium'>Contact</Link>
-        </div>
+      <ul className="hidden md:flex gap-3">
+        {links.map(({link,id})=>(       
+            <li key={id} className="text-gray-400   font-noto sm:text-lg font-medium cursor-pointer hover:scale-105 duration-200">
+            {link}
+          </li>
+          ))}
+      </ul>
+      <div onClick={()=> setNav(!nav)} className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden">
+        {nav ? <FaTimes size={30}  />: <FaBars size={30} />}
+      </div>
+      {nav && (
+      <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-gray-950 to-gray-600">
+      {links.map(({link,id})=>(       
+            <li key={id} className="px-4 cursor-point text-3xl capitalize py-6 font-bold font-raleway text-gray-400">
+            {link}
+          </li>
+          ))}
+        
+      </ul>
+      )}
+      
+      
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

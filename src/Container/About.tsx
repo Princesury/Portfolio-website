@@ -19,10 +19,8 @@ const About = () => {
 
   return (
     <div
-      className="bg-slate-800 w-full h-screen md:flex flex-row justify-evenly my-auto mx:auto"
-      id="About"
-    >
-      <div className="md:flex max-md:flex-col md:flex-col md:w-100 md:h-100 my-auto mx:auto pl-10">
+      className="bg-slate-800 w-full h-screen md:flex flex-row justify-evenly my-auto mx:auto" id="About">
+      <div className="md:flex max-md:flex-col md:flex-col md:w-100 md:h-100 my-auto mx:auto pl-10 max-md:w-80">
         <h1 className="text-white text-3xl font-mono font-bold w-50">
           Hi, I'm Prince
         </h1>
@@ -30,7 +28,7 @@ const About = () => {
           <h1 className="text-white text-3xl font-mono font-bold">I am a {skills[currentSkillIndex]} 👋
           </h1>
       </div>
-      <div className="md:w-32 md:h-32  bg-my-image object-center  bg-cover rounded-full md:mx-auto md:my-auto py-35 px-35  "></div>
+      <div className="md:w-32 md:h-32  bg-my-image object-center  bg-cover rounded-full md:mx-auto md:my-auto py-35 px-35"></div>
     </div>
   );
 };

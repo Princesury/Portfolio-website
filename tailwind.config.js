@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-      inter:['inter','sans','noto']
+      inter:['inter','sans','noto'],
+       signature: ['Great Vibes', 'cursive'],
       },
       animation: {
         typing: 'typing 2s steps(6), blink 1s infinite',
