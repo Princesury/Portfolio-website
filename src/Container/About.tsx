@@ -1,7 +1,9 @@
 // import { useEffect, useState } from "react";
 // import { TypeAnimation } from 'react-type-animation';
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
-import Image from '../assets/Prince.jpg'
+// import Image from '../assets/Prince.jpg'
+import {Link} from 'react-scroll'
+
 
 const About = () => {
   // const skills = [
@@ -20,27 +22,31 @@ const About = () => {
   // }, []);
 
   return (
-    <div  className=" flex w-full h-screen  bg-gradient-to-b from-slate-950 via-slate-900 to-slate-700">
-     <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center px-4 h-full md:flex-row ">
-     <div className=' overflow-hidden pb-2/3 rounded-2xl h-32 w-32 md:h-48 md:w-48'>
-          <img src={Image} alt="my profile" className="h-full w-full object-cover"/>
-        </div>
-      <div className="flex flex-col justify-center h-full px-4">
-        <h2 className="text-4xl sm:text-4xl font-bold text-white">
+    <div  className=" flex w-full h-screen  bg-gradient-to-b from-slate-950 via-slate-900 to-slate-700 ">
+     <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+      <div className="flex flex-col justify-center h-full">
+        <h2 className="text-4xl sm:text-6xl font-bold text-white">
           I'm a React Native Developer
         </h2>
         <p className="text-gray-500 py-4 max-w-md ">
         I am currently working on an E-commerce project using technologies like React Native, Redux, RazorPay API Gateway, Native Wind, and others, with 1 year of experience in React Native.
         </p>
         <div>
-          <button className="flex flex-row bg-gradient-to-r from-cyan-500 to-blue-600 rounded-md w-fit px-4 py-2">
+        <Link
+              to="portfolio"
+              smooth={true}
+              duration={500}
+              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+            >
            Portfolio
-           <span>
-           <MdOutlineKeyboardArrowRight />
+           <span className='group-hover:rotate-90 duration-300'>
+           <MdOutlineKeyboardArrowRight size={25} className='ml-1' />
            </span>
-          </button>
+          </Link>
         </div>
       </div>
+      <div>
+        </div>
      </div>
     </div>
   );
