@@ -30,7 +30,7 @@ const detail =[
 
 const Portfolio = () => {
   return (
-    <div name="Portfolio" className=' bg-gradient-to-b from-slate-800 via-slate-900 to-slate-950 w-full md:h-screen text-white'>
+    <div  className=' bg-gradient-to-b from-slate-800 via-slate-900 to-slate-950 w-full md:h-screen text-white'>
      <div className="max-w-screen-lg flex flex-col p-4 w-full justify-center">
        <div className='pb-8'>
         <p className='text-4xl inline border-b-4 font-bold border-gray-500'>Portfolio</p>
