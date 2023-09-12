@@ -4,7 +4,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import About from './Container/About'
 import Portfolio from './Container/Portfolio'
-import Projects from './Container/Projects'
+import Skills from './Container/Skills'
 import Contacts from './Container/Contacts'
 import SocialLinks from './Container/SocialLinks'
 
@@ -16,7 +16,7 @@ function App() {
       <About />
       <SocialLinks/>
       <Portfolio />
-      <Projects />
+      <Skills />
       <Contacts />
     </div>
   )
