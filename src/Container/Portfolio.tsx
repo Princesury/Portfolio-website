@@ -13,12 +13,12 @@ const detail =[
   {
     id: 2,
     src:Track,
-    link:'https://github.com/Princesury/LinkedInClone'
+    link:'https://github.com/Princesury/MusicPlayer'
   },
   {
     id: 3,
     src:Queue,
-    link:'https://github.com/Princesury/LinkedInClone'
+    link:'https://github.com/Princesury/ResQ'
   },
   {
     id: 4,
