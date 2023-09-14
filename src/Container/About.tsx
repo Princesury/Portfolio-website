@@ -29,7 +29,7 @@ const About = () => {
          I'm Prince Suryavanshi
         </h2>
         <br/>
-        <h2 className="text-3xl sm:text-6xl font-bold text-white">
+        <h2 className="text-3xl sm:text-5xl font-bold text-white font-raleway">
           I'm a React Native Developer
         </h2>
         <p className="text-gray-500 py-4 max-w-md ">
