@@ -2,6 +2,7 @@
 import {FaLinkedin,FaGithub} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
+import pdf from '../assets/Prince Suryavanshi (4).pdf'
 
 const links=[
     {
@@ -38,7 +39,7 @@ const links=[
                     Resume <BsFillPersonLinesFill size={30} />
                     </>
         ),
-        link:'https://github.com/Princesury'
+        link:pdf
     },
 ]
 

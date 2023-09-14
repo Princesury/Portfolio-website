@@ -30,10 +30,10 @@ const detail =[
 
 const Portfolio = () => {
   return (
-    <div  className=' bg-gradient-to-b from-slate-800 via-slate-900 to-slate-950 w-full md:h-screen text-white'>
-     <div className="max-w-screen-lg flex flex-col p-4 w-full justify-center">
+    <div  className='flex bg-gradient-to-b from-slate-800 via-slate-900 to-slate-950 w-full md:h-screen text-white'>
+     <div className="max-w-screen-lg flex flex-col p-4 w-full justify-center mx-auto">
        <div className='pb-8'>
-        <p className='text-4xl inline border-b-4 font-bold border-gray-500'>Portfolio</p>
+        <p className='text-4xl p-2 inline border-b-4 font-bold border-gray-500'>Portfolio</p>
         <p className='text-xl py-6'>Check out some of my work right here</p>
        </div>
        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
@@ -54,4 +54,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default Portfolio;

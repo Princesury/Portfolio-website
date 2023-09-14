@@ -1,9 +1,9 @@
-import React from "react";
+// import React from "react";
 
 const Contact = () => {
   return (
     <div
-      name="contact"
+      // name="contact"
       className="w-full h-full bg-gradient-to-b from-slate-800 via-slate-900 to-slate-950 p-4 text-white"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
@@ -35,7 +35,7 @@ const Contact = () => {
             <textarea
               name="message"
               placeholder="Enter your message"
-              rows="10"
+              rows={10}
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>
 
