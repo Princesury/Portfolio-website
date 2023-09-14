@@ -2,7 +2,7 @@
 import {FaLinkedin,FaGithub} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
-import pdf from '../assets/Prince Suryavanshi (4).pdf'
+import pdf from '../assets/Prince Suryavanshi (2).pdf'
 
 const links=[
     {
